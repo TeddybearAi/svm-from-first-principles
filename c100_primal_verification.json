@@ -1,0 +1,28 @@
+[
+  {
+    "overlap": "low",
+    "C": 100.0,
+    "seed": 0,
+    "scratch_w_norm": 5.729147972570941,
+    "sklearn_w_norm": 5.804099177736177,
+    "cosine_similarity": 0.9999993633019946,
+    "bias_abs_diff": 0.013634379097890503,
+    "mean_abs_score_diff": 0.07222278772717544,
+    "max_abs_score_diff": 0.1699409615870291,
+    "scratch_test_acc": 0.9333333333333333,
+    "sklearn_test_acc": 0.9333333333333333
+  },
+  {
+    "overlap": "high",
+    "C": 100.0,
+    "seed": 0,
+    "scratch_w_norm": 1.4268829580462028,
+    "sklearn_w_norm": 1.4278474934958292,
+    "cosine_similarity": 0.9999989990666183,
+    "bias_abs_diff": 0.0006285817492321308,
+    "mean_abs_score_diff": 0.0017177387831000149,
+    "max_abs_score_diff": 0.004874179982429894,
+    "scratch_test_acc": 0.75,
+    "sklearn_test_acc": 0.75
+  }
+]
