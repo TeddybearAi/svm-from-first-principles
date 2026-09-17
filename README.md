@@ -4,6 +4,12 @@ From-scratch Support Vector Machine project for UTS Machine Learning A2/A3.
 
 The project studies how the soft-margin parameter `C`, class overlap, kernel choice, and support-vector composition affect SVM behaviour. It includes a primal soft-margin SVM trained with full-batch subgradient descent and a simplified dual SMO solver with linear and RBF kernels.
 
+## Public Colab
+
+Open the executable notebook in Google Colab:
+
+https://colab.research.google.com/github/TeddybearAi/svm-from-first-principles/blob/main/SVM_Project_Notebook.ipynb
+
 ## Repository structure
 
 - `01_data.py` — data generation, Breast Cancer Wisconsin loading, train/validation/test splitting and standardisation.
@@ -11,7 +17,7 @@ The project studies how the soft-margin parameter `C`, class overlap, kernel cho
 - `03_dual_smo.py` — simplified dual SMO SVM implemented from scratch.
 - `04_experiments.py` — validation checks and experiment sweeps A–F.
 - `05_make_figures.py` — reproduces Figures 1–5 from the saved sweep results.
-- `SVM_Project_Notebook.ipynb` — notebook version of the complete implementation and experiments.
+- `SVM_Project_Notebook.ipynb` — public Colab entry point for the complete implementation and experiments.
 - `sweep_results.json` — raw experimental outputs used for tables and figures.
 - `c100_primal_verification.json` — recorded C=100 scratch-vs-sklearn geometry spot checks used in the report.
 
@@ -36,5 +42,3 @@ python 05_make_figures.py
 ```
 
 The experiment script writes `sweep_results.json`; the plotting script reads that file and produces Figures 1–5.
-
-The public Colab link will be added here once the final notebook is published.
