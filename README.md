@@ -20,6 +20,7 @@ https://colab.research.google.com/github/TeddybearAi/svm-from-first-principles/b
 - `SVM_Project_Notebook.ipynb` — public Colab entry point for the complete implementation and experiments.
 - `sweep_results.json` — raw experimental outputs used for tables and figures.
 - `c100_primal_verification.json` — recorded C=100 scratch-vs-sklearn geometry spot checks used in the report.
+- `journal/A2_Weekly_Implementation_Journal_Weeks1-8_Final_Ver.md` — final Week 1–8 implementation journal corresponding to the final verified journal PDF.
 
 ## Main experiments
 
