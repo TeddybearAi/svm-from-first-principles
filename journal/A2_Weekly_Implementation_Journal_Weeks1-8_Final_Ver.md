@@ -221,7 +221,7 @@ and vary only the support-vector threshold.
 
 ## AI tool use and critical review
 
-I used **Claude** to support the early implementation and report-drafting process, including iterative revisions. I then used **ChatGPT as an independent reviewer** to compare the report against the A2 specification and challenge the code/report consistency.
+I drafted the report myself and used **Claude** to revise wording, improve grammar, and suggest technical or structural improvements. I then used **ChatGPT as an independent reviewer** to compare the report against the A2 specification and challenge the code/report consistency.
 
 The most useful outcome this week was that AI-assisted review exposed weaknesses in earlier drafts. I did not simply accept whichever suggestion was newest. I treated disagreements as prompts to inspect the implementation and numerical outputs.
 
@@ -419,7 +419,7 @@ and made the report explicit that:
 
 This week AI use became more explicitly adversarial.
 
-Claude helped revise the implementation and report. ChatGPT then challenged several of the revised statements, especially:
+I used Claude to suggest revisions to the implementation and report wording. ChatGPT then challenged several of the revised statements, especially:
 
 - soft-margin KKT logic;
 - uniqueness claims;
@@ -587,7 +587,7 @@ This made the role of the validation set much clearer:
 
 ## AI tool use and critical review
 
-I used Claude during the validation and experiment revision process, and I used ChatGPT to review whether the resulting interpretations were statistically and mathematically defensible.
+I drafted the revised report sections and used Claude to suggest wording, grammar, and structural improvements. I used ChatGPT to review whether the resulting interpretations were statistically and mathematically defensible.
 
 This week the main AI-assisted corrections were not code-generation tasks. They were interpretation tasks:
 
@@ -813,7 +813,7 @@ The corrected interpretation is:
 
 This week was a good example of why I documented AI use explicitly.
 
-Claude revised the KKT discussion several times. ChatGPT independently checked the derivations and caught the remaining \(\alpha_i=0\) logic issue.
+I revised the KKT discussion several times, using Claude for wording and technical suggestions. ChatGPT independently checked the derivations and caught the remaining \(\alpha_i=0\) logic issue.
 
 I did not resolve the disagreement by choosing one AI tool over the other. I worked through:
 
@@ -979,7 +979,7 @@ I also removed reviewer-number comments and other drafting fingerprints from the
 
 The final project used two AI systems in different roles:
 
-- **Claude** was used for implementation support, technical discussion, and drafting assistance.
+- **Claude** was used for implementation support, technical discussion, grammar improvement, and suggestions on report structure and wording.
 - **ChatGPT** was used as an independent reviewer across successive versions.
 
 The important point was that AI suggestions were treated as claims to verify rather than as authoritative outputs.
