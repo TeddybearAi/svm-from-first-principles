@@ -1,0 +1,39 @@
+name: Generate experiment figures
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '05_make_figures.py'
+      - 'sweep_results.json'
+      - '.github/workflows/generate-figures.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Generate figures
+        run: |
+          python 05_make_figures.py
+          mkdir -p figures
+          mv fig1_primal_C_sweep.png figures/
+          mv fig2_dual_sv_counts.png figures/
+          mv fig3_kernel_comparison_moons.png figures/
+          mv fig4_real_dataset_C_sweep.png figures/
+          mv fig5_sv_composition.png figures/
+      - name: Commit generated figures
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add figures/*.png
+          git diff --cached --quiet || git commit -m 'Add generated experiment figures'
+          git push
