@@ -4,6 +4,14 @@ From-scratch Support Vector Machine project for UTS Machine Learning A2/A3.
 
 The project studies how the soft-margin parameter `C`, class overlap, kernel choice, and support-vector composition affect SVM behaviour. It includes a primal soft-margin SVM trained with full-batch subgradient descent and a simplified dual SMO solver with linear and RBF kernels.
 
+## A3 Presentation (4:27)
+
+Split-screen walkthrough: slides with narration on the left, the matching code from this repository highlighted on the right.
+
+[![A3 presentation video — click to open](presentation/thumbnail.png)](presentation/Teddy_12108700_SVM_A3_Presentation.mp4)
+
+[▶ Open / download the video](presentation/Teddy_12108700_SVM_A3_Presentation.mp4)
+
 ## Public Colab
 
 Open the executable notebook in Google Colab:
@@ -21,6 +29,7 @@ https://colab.research.google.com/github/TeddybearAi/svm-from-first-principles/b
 - `sweep_results.json` — raw experimental outputs used for tables and figures.
 - `c100_primal_verification.json` — recorded C=100 scratch-vs-sklearn geometry spot checks used in the report.
 - `journal/A2_Weekly_Implementation_Journal_Weeks1-8_Final_Ver.md` — final Week 1–8 implementation journal corresponding to the final verified journal PDF.
+- `presentation/` — A3 presentation video and its thumbnail.
 
 ## Main experiments
 
