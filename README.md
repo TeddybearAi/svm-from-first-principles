@@ -8,9 +8,11 @@ The project studies how the soft-margin parameter `C`, class overlap, kernel cho
 
 Split-screen walkthrough: slides with narration on the left, the matching code from this repository highlighted on the right.
 
-> **Note:** the video file (MP4, 1080p, ~25 MB) is too large for GitHub to play in the browser. Please download it to watch: open the file page and click the **Download raw file** button.
-
 [![A3 presentation video — download to watch](presentation/thumbnail.png)](presentation/Teddy_12108700_SVM_A3_Presentation.mp4)
+
+> [!IMPORTANT]
+> **The video file is too large for GitHub to play in the browser — please download it to watch.**
+> MP4, 1080p, 4:27, ~25 MB. Use the download link below.
 
 [⬇ Download the video (MP4, ~25 MB)](https://github.com/TeddybearAi/svm-from-first-principles/raw/main/presentation/Teddy_12108700_SVM_A3_Presentation.mp4)
 
